@@ -119,6 +119,11 @@ PRODUCT_PACKAGES += \
 
 PRODUCT_PACKAGE_OVERLAYS += vendor/io/overlay/common
 
+# SuperSU
+PRODUCT_COPY_FILES += \
+     vendor/io/prebuilt/common/UPDATE-SuperSU.zip:system/addon.d/UPDATE-SuperSU.zip \
+     vendor/io/prebuilt/common/etc/init.d/99SuperSUDaemon:system/etc/init.d/99SuperSUDaemon
+
 # Boot animation include
 #ifneq ($(TARGET_SCREEN_WIDTH) $(TARGET_SCREEN_HEIGHT),$(space))
 
