@@ -71,6 +71,10 @@ PRODUCT_PACKAGES += \
     Development \
     SpareParts \
     Superuser \
+    IOWallpapers \
+    IOLauncher \
+    libscreenrecorder \
+    ScreenRecorder \
     su
 
 # Optional packages
