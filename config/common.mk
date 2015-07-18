@@ -69,6 +69,7 @@ SUPERUSER_EMBEDDED := true
 PRODUCT_PACKAGES += \
     CellBroadcastReceiver \
     Development \
+    Eleven \
     SpareParts \
     Superuser \
     IOWallpapers \
